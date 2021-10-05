@@ -1,0 +1,214 @@
+body{
+  margin: 0;
+  color: white;
+}
+/*.upper-tab{
+  background-color: #FCF0C8;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  text-align: center;
+  height: 50px;
+}*/
+h1{
+  padding-top: 50px;
+  font-family: 'Gluten', cursive;
+  font-size: 4rem
+}
+h2{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+h3{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 2.3rem;
+  font-weight: lighter;
+}
+p{
+  font-family: 'Lora', serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  line-height: 2;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.top-container {
+  text-align: center;
+  padding-top: 100px;
+  background-color: #911F27;
+}
+
+.right-cloud{
+  position: absolute;
+  right: 300px;
+}
+.left-cloud{
+  position:absolute;
+  left: 200px;
+}
+
+.middle-container{
+  padding: 75px 0;
+  text-align: center;
+  background-color: #630A10;
+  line-height: 2;
+}
+.MyPicture{
+  border-radius: 50px;
+  width: 30%
+}
+.profile{
+  margin: auto;
+  width: 50%;
+  visibility: hidden;
+}
+.skills{
+  visibility: hidden;
+}
+.row{
+  margin: 80px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.video{
+  width: 40%;
+  float: right;
+  margin-left: 50px;
+}
+.ComputerImg{
+  width: 40%;
+  float: left;
+  margin-right: 50px;
+}
+.DriveImg{
+  width: 30%;
+  float: right;
+  margin-left: 50px;
+}
+.hobbies{
+  visibility: hidden;
+}
+.gifGaming{
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+}
+.contact-me{
+  visibility: hidden;
+}
+.contact-message{
+  width: 25%;
+  margin: auto auto 50px;
+}
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #000000;
+   font-family: 'Architects Daughter', cursive;
+   font-size: 25px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #FCF0C8;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   border: solid #000000 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+
+.bottom-container{
+  background-color: #FACE7F;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 20px;
+}
+.footer-link{
+  margin: 0 30px;
+  color: #911F27
+}
+.footer-link:hover{
+  color: #FCF0C8;
+}
+.a{
+  font-family: 'Architects Daughter', cursive;
+}
+.credit{
+  color:#911F27
+}
+
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;
+
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+
+	visibility: visible !important;
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;
+	}
+	60% {
+		transform: scale(1.1);
+	}
+	80% {
+		transform: scale(0.9);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;
+	}
+	60% {
+		-webkit-transform: scale(1.1);
+	}
+	80% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;
+	}
+}
